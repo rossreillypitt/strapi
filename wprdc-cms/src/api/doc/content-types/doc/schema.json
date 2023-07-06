@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "pages",
+  "collectionName": "docs",
   "info": {
-    "singularName": "page",
-    "pluralName": "pages",
-    "displayName": "Page",
-    "description": ""
+    "singularName": "doc",
+    "pluralName": "docs",
+    "displayName": "Doc"
   },
   "options": {
     "draftAndPublish": true
