@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_new_hums",
+  "info": {
+    "displayName": "hum"
+  },
+  "options": {},
+  "attributes": {
+    "uuu": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_home_page_tiles",
+  "info": {
+    "displayName": "Tiles"
+  },
+  "options": {},
+  "attributes": {
+    "Tile": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.tile"
+    }
+  }
+}

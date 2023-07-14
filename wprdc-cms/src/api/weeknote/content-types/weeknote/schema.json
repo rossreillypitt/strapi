@@ -4,21 +4,31 @@
   "info": {
     "singularName": "weeknote",
     "pluralName": "weeknotes",
-    "displayName": "Weeknote"
+    "displayName": "Weeknote",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Posted": {
+    "posted": {
       "type": "datetime"
     },
-    "Body": {
+    "body": {
       "type": "richtext"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::author.author",
+      "inversedBy": "weeknotes"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

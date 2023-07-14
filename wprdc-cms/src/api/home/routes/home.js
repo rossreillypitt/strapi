@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * tile router
+ * home router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::tile.tile');
+module.exports = createCoreRouter('api::home.home');

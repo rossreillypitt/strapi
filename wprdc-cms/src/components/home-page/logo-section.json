@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_home_page_logo_sections",
+  "info": {
+    "displayName": "logoSection"
+  },
+  "options": {},
+  "attributes": {
+    "eee": {
+      "type": "string"
+    }
+  }
+}

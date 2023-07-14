@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contentSections": {
+      "type": "dynamiczone",
+      "components": [
+        "home-page.tiles",
+        "home-page.lower-section",
+        "home-page.collaborators",
+        "home-page.search-section"
+      ]
+    }
+  }
+}

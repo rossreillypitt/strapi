@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_tiles",
+  "info": {
+    "displayName": "Tile"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

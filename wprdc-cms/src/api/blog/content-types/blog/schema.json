@@ -12,14 +12,23 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Body": {
+    "body": {
       "type": "richtext"
     },
-    "Date": {
+    "date": {
       "type": "date"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::author.author",
+      "inversedBy": "blogs"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

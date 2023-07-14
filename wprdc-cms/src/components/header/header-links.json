@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_header_header_links",
+  "info": {
+    "displayName": "headerLinks"
+  },
+  "options": {},
+  "attributes": {
+    "headerLinkText": {
+      "type": "string"
+    },
+    "headerLinkURL": {
+      "type": "string"
+    }
+  }
+}

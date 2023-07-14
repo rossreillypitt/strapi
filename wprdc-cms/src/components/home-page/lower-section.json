@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_page_lower_sections",
+  "info": {
+    "displayName": "LowerSection"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "sideImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
